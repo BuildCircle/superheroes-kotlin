@@ -27,6 +27,6 @@ Superheroes can obviously only fight supervillains and vice versa. Add some vali
 
 Run the application.
 
-1. Should return Joker - http://localhost:5000/battle?hero=Batman&villain=Joker
-2. Should return Superman - http://localhost:5000/battle?hero=Superman&villain=Lex%20Luthor
+1. Should return Joker - http://localhost:8080/battle?hero=Batman&villain=Joker
+2. Should return Superman - http://localhost:8080/battle?hero=Superman&villain=Lex%20Luthor
 
