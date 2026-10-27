@@ -3,10 +3,10 @@ package com.buildcircle.superheroes
 import com.buildcircle.superheroes.battle.BattleController
 import com.buildcircle.superheroes.characters.CharacterResponse
 import com.buildcircle.superheroes.characters.CharactersResponse
-import com.fasterxml.jackson.databind.ObjectMapper
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
+import tools.jackson.databind.ObjectMapper
 
 @SpringBootTest
 class BattleUnitTests {

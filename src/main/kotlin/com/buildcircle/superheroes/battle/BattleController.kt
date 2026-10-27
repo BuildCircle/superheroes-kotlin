@@ -2,12 +2,12 @@ package com.buildcircle.superheroes.battle
 
 import com.buildcircle.superheroes.characters.CharacterResponse
 import com.buildcircle.superheroes.characters.CharactersProvider
-import com.fasterxml.jackson.databind.ObjectMapper
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
+import tools.jackson.databind.ObjectMapper
 
 @RestController
 class BattleController @Autowired constructor(
